@@ -10,7 +10,6 @@ p {
   text-align: center;
   margin-top: 200px; 
   line-height: 0.3;
-  font-family: Georgia, serif;
 }
 
 nav a {
@@ -20,4 +19,6 @@ nav a {
 
 body {
   text-align: center;
+  color: white;
+  font-size: 14px;
 }
