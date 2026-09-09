@@ -17,3 +17,7 @@ nav a {
     colour: white;
     text-decoration: none;
 }
+
+body {
+  text-align: center;
+}
