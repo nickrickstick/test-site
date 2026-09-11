@@ -20,7 +20,7 @@ h1 {
 
 p {
   color: black;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   line-height: 1.2;
   margin-top: 10px;
@@ -43,7 +43,7 @@ p {
 }
 
 .sidebar h1 {
-  font-size: 20px;
+  font-size: 14px;
   text-align: left;
   margin: 0 0 20px 0;
 }
@@ -53,5 +53,5 @@ p {
   margin-bottom: 15px;
   color: black;
   text-decoration: none;
-  font-family: Georgia, serif;
+  font-family: Times New Roman, serif;
 }
