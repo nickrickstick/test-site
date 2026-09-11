@@ -1,39 +1,50 @@
-h1 { color: black; 
-    font-size: 32px; 
-    text-align: center; 
-    margin-top: 50px; 
-   }
+body {
+  margin: 0;
+  background-image: url('000035780017_16.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1 {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 50px;
+}
 
 p {
   color: black;
   font-size: 18px;
   text-align: center;
   line-height: 1.2;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .intro {
   margin-top: 50px;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
 
-nav a {
-  color: red;
+.sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  color: black;
   text-decoration: none;
+  font-family: Georgia, serif;
 }
-
-body {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
-
-.sidebar { position: fixed; top: 0; left: 0; width: 250px; height: 100vh; background: white; padding: 40px 20px; box-sizing: border-box; }
-.sidebar a { display: block; margin-bottom: 15px; color: black; text-decoration: none; font-family: Georgia, serif; }
