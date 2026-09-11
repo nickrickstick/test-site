@@ -32,11 +32,11 @@ p {
 
 .sidebar {
   position: fixed;
-  border-radius: 16px;
+  border-radius: 14px;
   top: 60px;
   left: 60px;
   width: 220px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.3);
   padding: 30px 20px;
   backdrop-filter: blur(8px);
   box-sizing: border-box;
